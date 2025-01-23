@@ -81,34 +81,6 @@ ul {
     background: #ff4b4b;
 }
 
-/* Navigation */
-.navbar {
-    background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding: 10px 20px;
-}
-
-.navbar ul {
-    display: flex;
-    justify-content: center;
-}
-
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    color: #333;
-    font-weight: bold;
-}
-
-.navbar ul li a:hover {
-    color: #ff6b6b;
-}
-
 /* Sections */
 section {
     padding: 50px 20px;
