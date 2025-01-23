@@ -4,52 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lolly Waffles</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Hero Section -->
     <header class="hero">
-        <h1>Welcome to Lolly Waffles</h1>
-        <p>Authentic Belgian waffles served with love in Lebanon</p>
-        <a href="#menu" class="btn">Explore Our Menu</a>
+        <div class="hero-text">
+            <h1>Welcome to Lolly Waffles</h1>
+            <p>Authentic Belgian waffles, made with love in Lebanon.</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
     </header>
 
-    <nav>
+    <!-- Navigation -->
+    <nav class="navbar">
         <ul>
-            <li><a href="#about">About</a></li>
+            <li><a href="#story">Our Story</a></li>
             <li><a href="#menu">Menu</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#events">Private Events</a></li>
+            <li><a href="#franchising">Franchising</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
 
-    <section id="about" class="about">
-        <h2>About Us</h2>
+    <!-- Our Story Section -->
+    <section id="story" class="story">
+        <h2>Our Story</h2>
         <p>
-            Since 2022, Lolly Waffles has been delighting Lebanon with the best waffles. Whether for weddings, birthdays, or festivals, 
-            our Liege waffles are a crowd-pleaser!
+            Since Christmas 2022, Lolly Waffles has been delighting Lebanon with authentic Liege waffles. Our homemade recipe 
+            combines rich flavors and premium ingredients to create a unique waffle experience. Whether you're enjoying a 
+            festival, planning a wedding, or celebrating a birthday, our waffles bring joy to every occasion.
         </p>
     </section>
 
+    <!-- Menu Section -->
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <div class="menu-item">
-            <h3>Liege Waffles</h3>
-            <p>Rich, buttery, and perfect for any event.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Stick Waffles</h3>
-            <p>Fun and customizable for birthdays and celebrations.</p>
-        </div>
-        <div class="menu-item">
-            <h3>Barista Drinks</h3>
-            <p>Pair your waffle with premium coffee and beverages.</p>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <h3>Liege Waffles</h3>
+                <p>Dense, buttery, and sweet – perfect for any event.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Stick Waffles</h3>
+                <p>Fun and customizable for private gatherings and birthdays.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Barista Drinks</h3>
+                <p>Pair your waffle with premium coffee and cold beverages.</p>
+            </div>
         </div>
     </section>
 
-    <footer id="contact">
+    <!-- Private Events Section -->
+    <section id="events" class="events">
+        <h2>Private Events & Catering</h2>
+        <p>
+            Host unforgettable events with our waffle bar experience. From weddings to corporate events, 
+            we bring the authentic taste of Belgian waffles to your special day.
+        </p>
+    </section>
+
+    <!-- Franchising Section -->
+    <section id="franchising" class="franchising">
+        <h2>Franchising Opportunities</h2>
+        <p>
+            Join the Lolly Waffles family! We're looking for passionate entrepreneurs who share our love for authentic 
+            Belgian waffles. Contact us to learn more about franchising opportunities.
+        </p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Email: info@lollywaffles.com</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Lolly Waffles. All rights reserved.</p>
         <p>Follow us on Instagram: <a href="https://instagram.com/lollywaffles">@lollywaffles</a></p>
-        <p>&copy; 2025 Lolly Waffles</p>
     </footer>
 </body>
 </html>
