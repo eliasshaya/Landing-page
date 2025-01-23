@@ -6,22 +6,25 @@
     <title>Lolly Waffles</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Hero Section -->
-    <header class="hero text-center text-white d-flex align-items-center justify-content-center" style="height: 100vh; background: url('WhatsApp Image 2025-01-22 at 1.13.58 PM.jpeg') no-repeat center center/cover;">
-        <div class="container">
-            <img src="logo.png" alt="Lolly Waffles Logo" class="img-fluid mb-4" style="max-width: 150px;">
-            <h1 class="display-4 fw-bold">Welcome to Lolly Waffles</h1>
-            <p class="lead">Authentic Belgian waffles, handcrafted with love.</p>
-            <a href="#menu" class="btn btn-primary btn-lg">Explore Our Menu</a>
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="hero-text text-center">
+            <img src="logo.png" alt="Lolly Waffles Logo" class="img-fluid mb-4 logo">
+            <h1>Indulge in Perfection</h1>
+            <p class="lead">Artisan Belgian Waffles, Crafted with Love</p>
+            <a href="#menu" class="btn btn-primary btn-lg shadow-lg">View Menu</a>
         </div>
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo" style="height: 40px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -29,7 +32,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#story">Our Story</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#story">Our Story</a></li>
                     <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="#events">Private Events</a></li>
                     <li class="nav-item"><a class="nav-link" href="#franchising">Franchising</a></li>
@@ -42,10 +45,10 @@
     <!-- Our Story Section -->
     <section id="story" class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-4">Our Story</h2>
+            <h2 class="fw-bold text-gradient mb-4">Our Story</h2>
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
-                    <img src="8M4A4650.JPG" alt="Serving Waffles" class="img-fluid rounded">
+                    <img src="8M4A4650.JPG" alt="Serving Waffles" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6">
                     <p>
@@ -59,11 +62,11 @@
     <!-- Menu Section -->
     <section id="menu" class="py-5 bg-light">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-4">Our Menu</h2>
+            <h2 class="fw-bold text-gradient mb-4">Our Menu</h2>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="Liege Box.png" class="card-img-top" alt="Liege Waffles">
+                    <div class="card shadow-lg border-0">
+                        <img src="Liege Box.png" class="card-img-top rounded-top" alt="Liege Waffles">
                         <div class="card-body">
                             <h5 class="card-title">Liege Waffles</h5>
                             <p class="card-text">Rich, buttery, and sweet – perfect for any event.</p>
@@ -71,8 +74,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="8M4A4549.JPG" class="card-img-top" alt="Stick Waffles">
+                    <div class="card shadow-lg border-0">
+                        <img src="8M4A4549.JPG" class="card-img-top rounded-top" alt="Stick Waffles">
                         <div class="card-body">
                             <h5 class="card-title">Stick Waffles</h5>
                             <p class="card-text">Fun and customizable for birthdays and celebrations.</p>
@@ -80,8 +83,8 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card h-100">
-                        <img src="WhatsApp Image 2025-01-22 at 12.35.55 PM.jpeg" class="card-img-top" alt="Barista Drinks">
+                    <div class="card shadow-lg border-0">
+                        <img src="WhatsApp Image 2025-01-22 at 12.35.55 PM.jpeg" class="card-img-top rounded-top" alt="Barista Drinks">
                         <div class="card-body">
                             <h5 class="card-title">Barista Drinks</h5>
                             <p class="card-text">Pair your waffle with premium coffee and beverages.</p>
@@ -95,18 +98,18 @@
     <!-- Private Events Section -->
     <section id="events" class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-4">Private Events & Catering</h2>
+            <h2 class="fw-bold text-gradient mb-4">Private Events & Catering</h2>
             <p>
                 Whether it's a wedding, corporate event, or private celebration, our waffle bar experience will make your event unforgettable. Let us bring the magic of Belgian waffles to your guests!
             </p>
-            <img src="TEAM.jpeg" alt="Lolly Waffles Team" class="img-fluid rounded mt-4">
+            <img src="TEAM.jpeg" alt="Lolly Waffles Team" class="img-fluid rounded shadow mt-4">
         </div>
     </section>
 
     <!-- Franchising Section -->
     <section id="franchising" class="py-5 bg-light">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-4">Franchising Opportunities</h2>
+            <h2 class="fw-bold text-gradient mb-4">Franchising Opportunities</h2>
             <p>
                 Love waffles as much as we do? Join the Lolly Waffles family and bring our signature waffles to your community. Contact us today to learn more about franchising opportunities.
             </p>
@@ -116,7 +119,7 @@
     <!-- Contact Us Section -->
     <section id="contact" class="py-5">
         <div class="container text-center">
-            <h2 class="fw-bold text-primary mb-4">Contact Us</h2>
+            <h2 class="fw-bold text-gradient mb-4">Contact Us</h2>
             <form class="mx-auto" style="max-width: 600px;">
                 <div class="mb-3">
                     <input type="text" class="form-control" placeholder="Your Name" required>
@@ -127,13 +130,13 @@
                 <div class="mb-3">
                     <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                <button type="submit" class="btn btn-primary w-100 shadow-lg">Send Message</button>
             </form>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
+    <footer class="bg-dark text-white text-center py-4">
         <p>&copy; 2025 Lolly Waffles. All rights reserved.</p>
         <p>Follow us on Instagram: <a href="https://instagram.com/lollywaffles" class="text-primary">@lollywaffles</a></p>
     </footer>
